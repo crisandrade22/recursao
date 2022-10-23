@@ -1,0 +1,36 @@
+22/10/2022
+
+Repetição : Comando
+            Recursão
+
+Chamando um procedimento, dentro dele mesmo.
+
+--> tem que ter um critério de parada. Caso não tenha você pode entrar em uma recursão infinita.
+Nem tudo vai ser utilizado recursão, como um fatorial, é melhor com laço, mas árvore já é um caso que é melhor a recursão.
+
+A instrução em cauda, é quando a última chamada é mesmo a recursão.
+
+static int fat (int n) {
+    if(n == 0 || n == 1) {
+        return 1;
+    }
+    return n * fat(n - 1);
+}
+
+fibonacci :
+    fib (n) = { 1 se n <= 2
+              fib(n-1) + + fib(n-2) se n > 2
+
+            static int fib(int n) {
+                if(n==0 || n ==1){
+                    return 1;
+                }
+                return fib(n-1) + fib(n-2)
+            }
+
+
+0,2 x 2 = 0,4
+0,4 x 2 = 0,8
+0,8 x 2 = 1,6
+0,6 x 2 = 1,2
+0,2 x 2 = 0,4
