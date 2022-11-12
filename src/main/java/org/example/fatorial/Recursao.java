@@ -40,14 +40,14 @@ public class Recursao {
     }
 
     public static void main(String[] args) {
-//        for(int i = 0; i < 30; i++){
-//            System.out.println("Fibonacci: " + i + " = " + fib(i));
-//        }
-//
-//        for(int i = 0; i < 20; i++){
-//            System.out.println("Fatorial Int: " + i + " = " + fat(i));
-//        }
-//
+        for(int i = 0; i < 30; i++){
+            System.out.println("Fibonacci: " + i + " = " + fib(i));
+        }
+
+        for(int i = 0; i < 20; i++){
+            System.out.println("Fatorial Int: " + i + " = " + fat(i));
+        }
+
         for(int i = 0; i < 50; i++){
             System.out.println("Fatorial BigInteger: " + i + " = " + bigFat(i));
         }
@@ -66,8 +66,8 @@ public class Recursao {
         System.out.println("Numero de jogos: " + nJogos);
         int intJogos = nJogos.intValue();
         System.out.println("Sua chance: " + 1.0 / intJogos);
-//        1.997448858318156E-8
-//        resultado é igual a 0,00000002
+/*       1.997448858318156E-8
+         resultado é igual a 0,00000002 */
 
     }
 }
